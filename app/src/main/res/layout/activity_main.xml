@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="5dp"
+        android:background="@color/colorPrimary">
+
+
+        <com.example.jma.ar7carshop.SlidingTabs.SlidingTabLayout
+            android:background="@color/colorPrimary"
+            android:id="@+id/sliding_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <!-- The main content view -->
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" />
+
+    </FrameLayout>
+
+<Button
+    android:id="@+id/btn_sellnewcar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:text="Sell Your Car"
+    android:textColor="#ffffff"/>
+</LinearLayout>

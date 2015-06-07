@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="horizontal"
+    card_view:cardElevation="2sp"
+    card_view:cardUseCompatPadding="true"
+
+    card_view:cardCornerRadius="0dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/img_car"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll_tv"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.65"
+                android:layout_height="fill_parent"
+                android:id="@+id/car_card_modelYear"
+                android:padding="12dp"
+                android:textColor="#3C3C3C"
+                android:textSize="18sp"
+                tools:text="Model(Year)" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/car_card_price"
+                android:layout_weight="0.35"
+                android:textColor="@color/colorInnerBlockText"
+                android:padding="10dp"
+                android:textSize="12sp"
+                tools:text="15000 AED"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:background="@color/colorInnerBlockBG"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+        <View
+            android:id="@+id/cardDivider"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#D4D4D4"
+            android:layout_below="@+id/ll_tv"
+            android:layout_alignLeft="@+id/ll_tv"
+            android:layout_alignStart="@+id/ll_tv" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardDivider">
+<!--
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:id="@+id/car_card_manufacture"
+                android:drawablePadding="4dp"
+                android:textColor="#878787"
+                android:padding="12dp"
+                android:textSize="16sp"
+                android:gravity="left|center_vertical"
+                android:drawableLeft="@drawable/manufacture"
+                tools:text="Manufacture" />
+            -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:id="@+id/car_card_millage"
+                android:textColor="#878787"
+                android:drawableLeft="@drawable/millage"
+                android:drawablePadding="4dp"
+                android:padding="12dp"
+                android:gravity="left|center_vertical"
+                android:textSize="16sp"
+                tools:text="Millage" />
+
+        </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

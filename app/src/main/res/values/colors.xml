@@ -1,0 +1,92 @@
+<resources>
+
+    <color name="colorPrimary">@color/color_IBR_500</color>
+    <color name="colorPrimaryDark">@color/color_IBR_500</color>
+    <color name="colorPrimaryLight">@color/color_IBR_700</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorTab">#e1e1e1</color>
+    <color name="colorInnerBlockBG">#e4e4e4</color>
+    <color name="colorInnerBlockText">#666666</color>
+
+    <color name="colorPrimary_FAB">#FFFFFFFF</color>
+    <color name="colorPrimaryDark_FAB">#FFFFFFFF</color>
+    <color name="colorAccent_FAB">#FFFFFFFF</color>
+
+    <!-- default theme colors -->
+    <!-- Material DEFAULT colors -->
+    <color name="material_drawer_primary">@color/colorPrimary</color>
+    <color name="material_drawer_primary_dark">@color/colorPrimaryDark</color>
+    <color name="material_drawer_primary_light">@color/colorPrimaryLight</color>
+    <color name="material_drawer_accent">@color/colorAccent</color>
+
+
+    <color name="textColorPrimary">#FFFFFFFF</color>
+    <color name="navigationBarColor">#FF000000</color>
+
+    <color name="windowBackgroundColor">#e1e1e1</color>
+    <color name="drawerBackgroundColor">#F9F9F9</color>
+    <color name="black_translucent">#80000000</color>
+
+
+
+
+
+    <!-- Material Red -->
+    <color name="color_Red_500">#F44336</color>
+    <color name="color_Red_700">#D32F2F</color>
+    <color name="color_Red_100">#FFCDD2</color>
+
+    <!-- Material Indigo -->
+    <color name="color_Indigo_500">#3F51B5</color>
+    <color name="color_Indigo_700">#303F9F</color>
+    <color name="color_Indigo_100">#C5CAE9</color>
+
+    <!-- Material Blue -->
+    <color name="color_Blue_500">#2196F3</color>
+    <color name="color_Blue_700">#1976D2</color>
+    <color name="color_Blue_100">#BBDEFB</color>
+
+    <!-- Material IBR -->
+    <color name="color_IBR_500">#00b5b5</color>
+    <color name="color_IBR_700">#ff00d7d7</color>
+    <color name="color_IBR_100">#ff00e5e5</color>
+
+    <!-- Material Green -->
+    <color name="color_Green_500">#4CAF50</color>
+    <color name="color_Green_700">#388E3C</color>
+    <color name="color_Green_100">#C8E6C9</color>
+
+    <!-- Material Yellow -->
+    <color name="color_Yellow_500">#FFEB3B</color>
+    <color name="color_Yellow_700">#FBC02D</color>
+    <color name="color_Yellow_100">#FFF9C4</color>
+
+
+    <!-- Material Orange -->
+    <color name="color_Orange_500">#FF9800</color>
+    <color name="color_Orange_700">#F57C00</color>
+    <color name="color_Orange_100">#FFE0B2</color>
+
+    <!-- Material Deep DeepOrange -->
+    <color name="color_DeepOrange_500">#FF5722</color>
+    <color name="color_DeepOrange_700">#E64A19</color>
+    <color name="color_DeepOrange_100">#FFCCBC</color>
+
+
+    <!-- Material Light_Blue -->
+    <color name="color_light_blue_500">#0277bd</color>
+    <color name="color_light_blue_700">#1687ca</color>
+    <color name="color_light_blue_100">#b9e1f8</color>
+
+    <!-- Material Ibrahim -->
+    <color name="color_Ibrahim_500">#a1455d</color>
+    <color name="color_Ibrahim_700">#81374a</color>
+    <color name="color_Ibrahim_100">#b9e1f8</color>
+
+    <!-- Dashboard -->
+    <color name="color_tasks">#ddad3b</color>
+    <color name="color_classes">#f1654c</color>
+    <color name="color_exams">#7ea53b</color>
+
+</resources>
